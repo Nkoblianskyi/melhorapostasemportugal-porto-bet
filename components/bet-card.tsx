@@ -2,17 +2,17 @@
 
 import { Star, ExternalLink, CheckCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import type { CasinoSite } from "@/data/casino-sites"
 import Image from "next/image"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
+import { BettingSite } from "@/data/bet-sites"
 
-interface CasinoCardProps {
-  site: CasinoSite
+interface BetCardProps {
+  site: BettingSite
   rank: number
 }
 
-export function CasinoCard({ site, rank }: CasinoCardProps) {
+export function BetCard({ site, rank }: BetCardProps) {
   const formatReviews = (reviews: number) => {
     return reviews.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
   }

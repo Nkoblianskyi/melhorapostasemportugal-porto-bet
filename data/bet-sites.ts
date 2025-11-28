@@ -119,5 +119,3 @@ export const bettingSites: BettingSite[] = [
   },
 ]
 
-export const casinoSites = bettingSites
-export type CasinoSite = BettingSite

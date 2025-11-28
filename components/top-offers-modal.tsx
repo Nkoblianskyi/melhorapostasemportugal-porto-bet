@@ -5,7 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { X, Star, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { bettingSites } from "@/data/casino-sites"
+import { bettingSites } from "@/data/bet-sites"
 
 interface TopOffersModalProps {
   isOpen: boolean

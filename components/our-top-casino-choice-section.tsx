@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { bettingSites } from "@/data/casino-sites"
+import { bettingSites } from "@/data/bet-sites"
 import { Star, ExternalLink, Gift, Shield, CheckCircle, Trophy, Zap } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"

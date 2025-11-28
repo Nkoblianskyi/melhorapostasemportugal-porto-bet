@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
-import { CasinoList } from "@/components/casino-list"
 import { TopOffersModal } from "@/components/top-offers-modal"
 import { AgeRestrictionModal } from "@/components/age-restriction-modal"
 import { AdvertiserInfoModal } from "@/components/advertiser-info-modal"
@@ -14,6 +13,7 @@ import { BettingInfoSection } from "@/components/betting-info-section"
 import { CookieBanner } from "@/components/cookie-banner"
 import { CookieConsentProvider } from "@/context/cookie-consent-context"
 import { WhyChooseUsSection } from "@/components/why-choose-us-section"
+import { BetList } from "@/components/bet-list"
 
 export default function Home() {
   const [isAgeModalOpen, setIsAgeModalOpen] = useState(false)
@@ -55,7 +55,7 @@ export default function Home() {
             setIsTopOffersModalOpen={setIsTopOffersModalOpen}
           />
           <div id="betting-sites">
-            <CasinoList />
+            <BetList />
           </div>
           <WhyChooseUsSection />
           <BettingInfoSection />
