@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { ArrowLeft, Shield, Lock, Eye, Database, UserCheck, FileText } from "lucide-react"
 import { SiteFooter } from "@/components/site-footer"
+import { SiteHeader } from "@/components/site-header"
 
 export default function PrivacyPolicyPage() {
   const sections = [
@@ -78,6 +79,7 @@ Podemos atualizar esta política periodicamente. Recomendamos revisitar esta pá
 
   return (
     <div className="min-h-screen bg-background">
+      <SiteHeader/>
       {/* Header */}
       <header className="border-b border-border/50 bg-card/50 glass-effect sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">

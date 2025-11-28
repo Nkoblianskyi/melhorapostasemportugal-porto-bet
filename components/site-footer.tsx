@@ -41,7 +41,7 @@ export function SiteFooter() {
               </li>
               <li>
                 <Link
-                  href="#betting-sites"
+                  href="/#betting-sites"
                   className="text-muted-foreground hover:text-primary transition-colors text-sm"
                 >
                   Casas de Apostas

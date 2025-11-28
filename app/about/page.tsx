@@ -1,10 +1,11 @@
 import Link from "next/link"
 import { ArrowLeft, Trophy, Shield, Users, Target, Award, CheckCircle } from "lucide-react"
-import { SiteFooter } from "@/components/site-footer"
+import { SiteHeader } from "@/components/site-header"
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-background">
+      <SiteHeader/>
       {/* Header */}
       <header className="border-b border-border/50 bg-card/50 glass-effect sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">

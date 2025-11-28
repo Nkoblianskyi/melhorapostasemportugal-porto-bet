@@ -33,10 +33,7 @@ export function OurTopCasinoChoiceSection() {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-10 md:mb-14">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-4">
-            <Trophy className="w-4 h-4 text-primary" />
-            <span className="text-sm font-semibold text-primary">Escolha #1 em Portugal</span>
-          </div>
+
           <h2 className="text-3xl md:text-5xl font-black text-foreground mb-4 font-serif">
             A Nossa <span className="text-gradient-gold">Top Escolha</span>
           </h2>
@@ -55,7 +52,7 @@ export function OurTopCasinoChoiceSection() {
             {/* Badge */}
             <div className="absolute top-4 left-4 flex items-center gap-2">
               <div className="px-4 py-2 gradient-gold rounded-lg font-black text-background text-sm flex items-center gap-2">
-                <Zap className="w-4 h-4" />
+                
                 #1 MELHOR ESCOLHA
               </div>
             </div>

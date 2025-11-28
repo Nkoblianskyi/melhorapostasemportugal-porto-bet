@@ -55,10 +55,6 @@ export function FaqSection() {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-10 md:mb-14">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 mb-4">
-            <HelpCircle className="w-4 h-4 text-accent" />
-            <span className="text-sm font-semibold text-accent">Perguntas Frequentes</span>
-          </div>
           <h2 className="text-3xl md:text-5xl font-black text-foreground mb-4 font-serif">
             Dúvidas <span className="text-gradient-gold">Comuns</span>
           </h2>
