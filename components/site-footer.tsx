@@ -97,20 +97,35 @@ export function SiteFooter() {
           </h4>
           <div className="flex flex-wrap justify-center items-center gap-4 md:gap-6">
             {[
-              { href: "https://www.srij.turismodeportugal.pt/", src: "/srij-new.svg", alt: "SRIJ" },
-              { href: "https://www.sicad.pt/", src: "/icad.png", alt: "SICAD" },
-              { href: "https://www.gamcare.org.uk/", src: "/gamecare-new.svg", alt: "GamCare" },
-              { href: "https://www.gambleaware.org/", src: "/gamble-aware.webp", alt: "GambleAware" },
-              { href: "https://www.jogoresponsavel.pt/", src: "/jogo-responsavel-new.png", alt: "Jogo Responsável" },
+              {
+                href: "https://www.srij.turismodeportugal.pt/",
+                src: "/srij-new.svg",
+                alt: "SRIJ",
+                bgColor: "bg-white",
+              },
+              { href: "https://www.icad.pt/", src: "/icad.png", alt: "SICAD", bgColor: "bg-white" },
+              { href: "https://www.gamcare.org.uk/", src: "/gamecare-new.svg", alt: "GamCare", bgColor: "bg-white" },
+              {
+                href: "https://www.gambleaware.org/",
+                src: "/gamble-aware.webp",
+                alt: "GambleAware",
+                bgColor: "bg-white",
+              },
+              {
+                href: "https://www.jogoresponsavel.pt/",
+                src: "/jogo-responsavel-new.png",
+                alt: "Jogo Responsável",
+                bgColor: "bg-emerald-900",
+              },
             ].map((partner) => (
               <Link
                 key={partner.alt}
                 href={partner.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 md:p-4 rounded-lg bg-secondary/50 hover:bg-secondary border border-border/30 hover:border-primary/30 transition-all"
+                className={`p-3 md:p-4 rounded-lg ${partner.bgColor} hover:opacity-90 border border-border/30 hover:border-primary/30 transition-all`}
               >
-                <div className="relative w-[70px] h-[28px] md:w-[80px] md:h-[32px]">
+                <div className="relative w-[80px] h-[44px] md:w-[90px] md:h-[44px]">
                   <Image src={partner.src || "/placeholder.svg"} alt={partner.alt} fill className="object-contain" />
                 </div>
               </Link>
