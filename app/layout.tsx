@@ -19,7 +19,6 @@ export const metadata: Metadata = {
   title: "MelhorApostasEmPortugal | Top Casas de Apostas Licenciadas SRIJ 2025",
   description:
     "O guia definitivo de apostas desportivas em Portugal. Comparação independente das melhores casas de apostas licenciadas pelo SRIJ. Bónus exclusivos, análises detalhadas e apostas seguras.",
-  generator: "v0.app",
   robots: {
     index: true,
     follow: true,
