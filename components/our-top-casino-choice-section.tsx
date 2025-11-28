@@ -52,7 +52,6 @@ export function OurTopCasinoChoiceSection() {
             {/* Badge */}
             <div className="absolute top-4 left-4 flex items-center gap-2">
               <div className="px-4 py-2 gradient-gold rounded-lg font-black text-background text-sm flex items-center gap-2">
-                
                 #1 MELHOR ESCOLHA
               </div>
             </div>
@@ -100,7 +99,7 @@ export function OurTopCasinoChoiceSection() {
                   <div className="text-center">
                     <div className="p-6 rounded-xl bg-card/80 border border-border/50 mb-6">
                       <div className="flex items-center justify-center gap-2 mb-3">
-                        <Gift className="w-5 h-5 text-primary" />
+                      
                         <span className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">
                           Bónus Exclusivo
                         </span>
